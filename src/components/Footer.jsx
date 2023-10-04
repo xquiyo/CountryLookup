@@ -20,7 +20,7 @@ const Footer = () => {
               <Link to="/" className="footer__link">
                 Home
               </Link>
-              <Link to="/countrieslist" className="footer__link">
+              <Link to="/countries" className="footer__link">
                 Countries List
               </Link>
               <Link to="/" className="footer__link no-cursor">
