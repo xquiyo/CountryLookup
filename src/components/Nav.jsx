@@ -15,7 +15,7 @@ const Nav = () => {
     <>
       <div id="nav" className="row nav__row">
         
-          <Link to="#">
+          <Link to="/">
             <img src={mainLogo} alt="" className="logo" />
           </Link> 
           <ul className="nav__link--list">

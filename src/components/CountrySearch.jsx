@@ -48,7 +48,7 @@ const CountrySearch = () => {
     setIsLoading(true);
     setTimeout(() => {
       fetchCountryData();
-    }, 1000);
+    }, 500);
   }
 
   return (

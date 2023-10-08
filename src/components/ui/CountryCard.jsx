@@ -22,19 +22,19 @@ const CountryCard = ({ country }) => {
 
   return (
     <>
+    
       <div className="country__list">
         <div className="country__wrapper" key={country.name.common}>
           <div id="flag-info-section" className="country">
-            
             <figure className="country__img--wrapper">
-            <Link
-              to={{
-                pathname: `/countries/${country.name.common}`,
-                state: { countryData: country },
-              }}>
-              <img className="country__img" src={country.flags.png} alt="" />
+              <Link
+                to={{
+                  pathname: `/countries/${country.name.common}`,
+                  state: { countryData: country },
+                }}
+              >
+                <img className="country__img" src={country.flags.png} alt="" />
               </Link>
-
             </figure>
 
             <h4 className="country__name">{country.name.common}</h4>
